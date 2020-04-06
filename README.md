@@ -1,5 +1,4 @@
-# Image-captioning
-Image captioning with RNN and LSTM
+# Image captioning with RNNs and LSTMs
 
 <img src="Images/example.png" alt="Example">
 
