@@ -19,30 +19,44 @@ cd Data
 ./get_datasets.sh
 ```
 
-<sub><sup>If this does not work and you are interested in running the code yourself with the same data, contact me for a drive link which has all the relevant data.</sup></sub>
+If this does not work and you are interested in running the code yourself with the same data, contact me for a drive link which has all the relevant data.
 
 
 
-#### Running
+#### Running the code
 
+1. Clone the repository
 
-Running the code:
+2. Install the requirements at Data/requirements.txt
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+3. Train and sample!
 
 ```
 cd Code
 python3 main.py
 ```
 
-Optional arguments:
-  -h, --help            show this help message and exit
-  -m MODEL, --model MODEL
-                        Model. rnn or lstm. Default = rnn
-  -d TRAIN_DATA, --data TRAIN_DATA
-                        Maximum training data. Default = 100
 
-For example to run the LSTM with 500 training images,
+RNN runs by default with 100 training samples. You can change these by passing arguments.
+
+Optional arguments:
+
+  MODEL : -m, --model : rnn or lstm. Default = rnn
+
+  TRAIN_DATA : -d --data : Maximum training data. Default = 100
+
+For example, to run LSTM with 500 training images,
 
 ```
 cd Code
 python3 main.py -m lstm -d 500
 ```
+
+
+Thanks to Justin Johnson, Fei-Fei Li and Serena Yeung from the Stanford University course CS231N for the easy handling of data.
+
+Do check out their course CS231N [here](http://cs231n.stanford.edu/2019/)
