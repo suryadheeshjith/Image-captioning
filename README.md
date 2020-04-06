@@ -47,10 +47,10 @@ I am using Python version 3.7
 
 3. Train and sample!
 
-```
-cd Code
-python3 main.py
-```
+    ```
+    cd Code
+    python3 main.py
+    ```
 
 
 RNN runs by default with 100 training samples. You can change these by passing arguments.
