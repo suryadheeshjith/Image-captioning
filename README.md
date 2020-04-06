@@ -1,6 +1,11 @@
 # Image-captioning
 Image captioning with RNN and LSTM
 
+<img src="Images/example.png" alt="Example">
+
+
+
+
 ## Data
 We will use the 2014 release of the Microsoft COCO dataset which has become the standard testbed for image captioning. The dataset consists of 80,000 training images and 40,000 validation images, each annotated with 5 captions written by workers on Amazon Mechanical Turk.
 
@@ -20,7 +25,6 @@ cd Data
 ```
 
 If this does not work and you are interested in running the code yourself with the same data, contact me for a drive link.
-
 
 
 ## Running the code
