@@ -1,12 +1,12 @@
 # Image-captioning
 Image captioning with RNN and LSTM
 
-#### Data
+## Data
 We will use the 2014 release of the Microsoft COCO dataset which has become the standard testbed for image captioning. The dataset consists of 80,000 training images and 40,000 validation images, each annotated with 5 captions written by workers on Amazon Mechanical Turk.
 
-***The data preprocessing, image visualisation and encoding/decoding has been already well done by the folks at stanford university - Course CS231N. So we will be using some of the code from there.***
+***The data preprocessing, image visualisation and encoding/decoding has been already implemented by the folks at stanford university (Course CS231N). So we will be using some of the code from there.***
 
-
+Some additional information from them :
 We have preprocessed the data and extracted features for you already. For all images we have extracted features from the fc7 layer of the VGG-16 network pretrained on ImageNet; these features are stored in the files train2014_vgg16_fc7.h5 and val2014_vgg16_fc7.h5 respectively. To cut down on processing time and memory requirements, we have reduced the dimensionality of the features from 4096 to 512; these features can be found in the files train2014_vgg16_fc7_pca.h5 and val2014_vgg16_fc7_pca.h5.
 
 The raw images take up a lot of space (nearly 20GB) so we have not included them in the download. However all images are taken from Flickr, and URLs of the training and validation images are stored in the files train2014_urls.txt and val2014_urls.txt respectively. This allows you to download images on the fly for visualisation. Since images are downloaded on-the-fly, you must be connected to the internet to view images.
@@ -19,11 +19,11 @@ cd Data
 ./get_datasets.sh
 ```
 
-If this does not work and you are interested in running the code yourself with the same data, contact me for a drive link which has all the relevant data.
+If this does not work and you are interested in running the code yourself with the same data, contact me for a drive link.
 
 
 
-#### Running the code
+## Running the code
 
 ***Recommended to use an environment***
 
