@@ -40,6 +40,7 @@ I am using Python version 3.7
 2. Install the requirements at Data/requirements.txt
 
     ```
+    cd Data
     pip install -r requirements.txt
     ```
 
