@@ -1,0 +1,5 @@
+h5py
+matplotlib
+argparse
+numpy
+tensorflow==2.1.0

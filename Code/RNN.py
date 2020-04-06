@@ -5,7 +5,6 @@ import numpy as np
 
 from layers import *
 from optim import *
-
 from coco_utils import sample_coco_minibatch
 
 

@@ -25,6 +25,12 @@ If this does not work and you are interested in running the code yourself with t
 
 #### Running the code
 
+***Recommended to use an environment***
+
+I am using Python version 3.7
+
+
+
 1. Clone the repository
 
 2. Install the requirements at Data/requirements.txt
@@ -32,6 +38,7 @@ If this does not work and you are interested in running the code yourself with t
     ```
     pip install -r requirements.txt
     ```
+
 
 3. Train and sample!
 

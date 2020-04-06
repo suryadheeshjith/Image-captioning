@@ -37,10 +37,9 @@ if __name__ == "__main__":
         sample_captions = decode_captions(sample_captions, data['idx_to_word'])
 
         for gt_caption, sample_caption, url in zip(gt_captions, sample_captions, urls):
-            try:
-                plt.imshow(image_from_url(url))
-                plt.title('%s\n%s\nGT:%s' % (split, sample_caption, gt_caption))
-                plt.axis('off')
-                plt.show()
-            except:
-                continue
+
+            plt.imshow(image_from_url(url))
+            plt.title('%s\n%s\nGT:%s' % (split, sample_caption, gt_caption))
+            plt.axis('off')
+            plt.show()
+            
