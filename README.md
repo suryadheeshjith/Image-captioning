@@ -53,13 +53,13 @@ python3 main.py
 
 
 RNN runs by default with 100 training samples. You can change these by passing arguments.
-
+```
 Optional arguments:
 
   MODEL : -m, --model : rnn or lstm. Default = rnn
 
   TRAIN_DATA : -d --data : Maximum training data. Default = 100
-
+```
 For example, to run LSTM with 500 training images,
 
 ```
@@ -67,6 +67,24 @@ cd Code
 python3 main.py -m lstm -d 500
 ```
 
+
+#### Repository structure :
+
+```
+├── Code
+│   ├── RNN.py
+│   ├── coco_utils.py
+│   ├── layers.py
+│   ├── main.py
+│   ├── optim.py
+│   └── url_image.py
+├── Data
+│   ├── get_coco_captioning.sh
+│   └── requirements.txt
+├── Images
+│   └── example.png
+└── README.md
+```
 
 Thanks to Justin Johnson, Fei-Fei Li and Serena Yeung from the Stanford University course CS231N for the easy handling of data.
 
