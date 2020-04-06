@@ -54,9 +54,9 @@ python3 main.py
 
 
 RNN runs by default with 100 training samples. You can change these by passing arguments.
-```
-Optional arguments:
 
+#### Optional arguments:
+```
   MODEL : -m, --model : rnn or lstm. Default = rnn
 
   TRAIN_DATA : -d --data : Maximum training data. Default = 100
